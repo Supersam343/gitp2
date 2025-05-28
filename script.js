@@ -24,7 +24,7 @@ class Deck{
     }
 
 
-    // loop to iterate through a fresh deck of cards and select a new card to push to the deck 
+// loop to iterate through a fresh deck of cards and select a new card to push to the deck 
 
  createDeck() {
         for (let i = 0; i < this.suits.length; i++) {
@@ -49,7 +49,7 @@ class Deck{
     }
    }
 
-// gives each player their respective deck by    
+// gives each player their respective deck in theory   
  dealDeck(players, shuffledDeck) {
     let hand1 = shuffledDeck.splice(0,26);
     for (let i = 0; i < hand1.length; i++){
@@ -61,27 +61,6 @@ class Deck{
         players[1].hands.push(hand2[i]);
     }
  }
-
-}
-
-class Game {
-    constructor() {
-        this.player1 = {
-            name: 'player 1',
-            score: 0,
-            hand: []
-        }
-        this.player2 = {
-            name: 'player 2',
-            score: 0,
-            hand: []
-        }
-    }
-    
- playGame() {
-    
- }
-
 
 }
 
