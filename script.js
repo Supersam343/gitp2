@@ -49,7 +49,7 @@ class Deck{
     }
    }
 
-// gives each player their respective deck in theory   
+// gives each player their respective deck   
  dealDeck(players, shuffledDeck) {
     let hand1 = shuffledDeck.splice(0,26);
     for (let i = 0; i < hand1.length; i++){
@@ -63,6 +63,8 @@ class Deck{
  }
 
 }
+
+
 
 
 
