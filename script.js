@@ -66,7 +66,26 @@ class Deck{
 
 
 
+class Game {
+    constructor() {
+        this.player1 = {
+            name: 'player 1',
+            score: 0,
+            hand: []
+        }
+        this.player2 = {
+            name: 'player 2',
+            score: 0,
+            hand: []
+        }
+    }
+    
+ playGame() {
 
+ }
+
+
+}
 
 
 
